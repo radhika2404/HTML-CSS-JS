@@ -1,0 +1,140 @@
+@import URL( "https://fonts.cdnfonts.com/css/instagram-sans-script");
+
+
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.container{
+    display: flex;
+    overflow: hidden;
+}
+.sidebar{
+    width:20vw;
+    border-right:0.5 px solid black;
+    height:100vh;
+    overflow:hidden;
+    display: flex;
+    flex-direction: column;
+    align-items:baseline;
+    justify-content: space-between;
+}
+.sidebar-top{
+    display: flex;
+    flex-direction: column;
+    align-items: baseline;
+}
+.main{
+    height: 100vh;
+    overflow-x: none;
+    display: flex;
+    margin: 0 auto;    
+    overflow-y: scroll;
+    width: 80pw;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-between;
+}
+#brand-logo{
+    width: 5vw;
+    padding: 5px;
+    margin: 10px 5px 30px 5px;
+    max-width:500px;
+    box-sizing: border-box;
+}
+.sidebar-item{
+    display:flex;
+    align-items: center;
+    margin-bottom:15px;
+    margin-left:5px;
+    font-size: 15px;
+}
+
+.sidebar-item > p{
+    padding: 5px;
+    margin-top:5px;
+    margin-left: 20px;
+}
+.fa-solid{
+    font-size: 25px;
+    padding:5px;
+}
+/* hr{
+    padding: 50px;
+} */
+
+.profile-img{
+    margin: 10px;
+    border-radius: 50px;
+    width: 50px;
+    height: 50px;
+}
+.card{
+    border: none;
+    border-radius: 10px;
+    margin: 10px 5px 10px 0px;
+    box-shadow: 1px 1px 10px 1px #888;
+    height: auto;
+    width: 450px;
+    margin-bottom: 30px;
+    position: relative;
+}
+.main-img{
+    width: 500px;
+    height:auto;
+    max-width: 850px;
+}
+.stories{
+    overflow-x:scroll;
+    overflow-y: none ;
+    white-space:nowrap ;
+    width: 100%;
+}
+
+/* .stories:-webkit-scrollbar{
+    display:none;
+}
+.card:-webkit-scrollbar{
+    display:none;
+} */
+.story{
+    display: inline-block;
+    text-align: center;
+    padding-right:10px ;
+}
+.story>p{
+    font-size: 12px;
+    /* padding-left: 10px ; */
+}
+.story>img{
+    width:70px;
+    height: 70px;
+    border-radius: 50%;
+    
+}
+.next-arrow{
+    position: absolute;
+    right: 10px;
+    top: 10px;
+    padding:8px;
+    background-color: white;
+    color: black;
+    border-radius: 50%;
+    opacity: 0.8;
+    font-weight: bolder;
+    cursor: pointer;
+}
+
+.handle-name{
+    display: flex;
+    align-items: center;  
+}
+
+.icon-area{
+    display: flex;
+    justify-content: space-between;
+}
+.caption-area{
+    padding: 10px;
+}
